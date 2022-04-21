@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: "Elephant";
+  src: url("assets/elephant.ttf");
+}
+
+@font-face {
+  font-family: "Euphorigenic";
+  src: url("assets/euphorigenic.ttf");
+}
+
+@font-face {
+  font-family: "Odibee";
+  src: url("assets/odibee.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/roboto.ttf");
+}
+
+body {
+  background: url("assets/background.jpg");
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #180027;
+}
+
+h1 {
+  font-family: "Elephant", serif;
+  font-size: 72px;
+  text-align: center;
+  border-bottom: 2px solid #180027;
+  margin-left: 18px;
+}
+
+h2 {
+  font-family: "Euphorigenic", serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 12px;
+  margin-left: 18px;
+}
+
+h3, h4, h5 {
+  font-family: "Odibee", serif;
+}
+
+#view {
+  margin: auto;
+  max-width: 1260px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#top img {
+  width: 120px;
+  height: 120px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
